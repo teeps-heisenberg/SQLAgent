@@ -4,6 +4,7 @@ Example usage of SQLDBAgent demonstrating practical use cases.
 Make sure to set your GEMINI_API_KEY environment variable or pass it directly.
 """
 
+import utils.session
 import os
 from sqldb_agent import SQLDBAgent
 
